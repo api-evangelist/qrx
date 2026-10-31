@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-QRX is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://qrx.codes
+QRX provides an artistic QR code generation service powered by AI, allowing users to create visually appealing, scannable QR codes from textual prompts and destination URLs. The platform offers free and paid plans, API access for developers, and tools for customizing code appearance, with features like link redirection, Wi‑Fi codes, and post‑print updates.
+
+**Areas:** Company · QR Codes · Artificial Intelligence · Art
+
+## QRX on APIs.io
+
+Everything profiled for QRX is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/qrx/](https://apis.io/providers/qrx/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [QRX Codes API](https://apis.io/apis/qrx/qrx-codes-api/) — The Codes API from QRX — 3 operation(s) for codes.
+- [QRX QRX API](https://apis.io/apis/qrx/qrx-qrx-api-api/) — The QRX API API from QRX — 1 operation(s) for qrx api.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1CodesIdResponse](https://apis.io/schemas/qrx/qrx-get-v1-codes-id-response/)
+- [GetV1V1IdResponse](https://apis.io/schemas/qrx/qrx-get-v1-v1-id-response/)
+- [PatchV1CodesIdRequest](https://apis.io/schemas/qrx/qrx-patch-v1-codes-id-request/)
+- [PatchV1CodesIdResponse](https://apis.io/schemas/qrx/qrx-patch-v1-codes-id-response/)
+- [PostV1CodesIdReportRequest](https://apis.io/schemas/qrx/qrx-post-v1-codes-id-report-request/)
+- [PostV1CodesIdReportResponse](https://apis.io/schemas/qrx/qrx-post-v1-codes-id-report-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Qrx Context](https://apis.io/jsonld/qrx/qrx-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [QRX API Rules](https://apis.io/rules/qrx/qrx-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Qrx Domain Security](https://apis.io/security/qrx/qrx-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Qrx Plans Pricing](https://apis.io/plans/qrx/qrx-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://qrx.codes)
+- [Documentation](https://qrx.codes/developers)
+- [API reference](https://qrx.codes/llms.txt)
+- [Pricing](https://qrx.codes/pricing)
+- [Support](https://qrx.codes/support)
+- [Terms of service](https://qrx.codes/terms)
+- [Privacy policy](https://qrx.codes/privacy)
+
+## API Evangelist rating
+
+**Kin Score 31.2** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 24.8 |
+| Contract governance | 35.6 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 52.6 |
+
+**Agent readiness 32.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/qrx/](https://apis.io/providers/qrx/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for QRX: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/qrx/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
